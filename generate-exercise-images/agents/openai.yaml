@@ -1,0 +1,16 @@
+interface:
+  display_name: Exercise Image Studio
+  short_description: Cartoon exercise sheets with configurable providers
+  default_prompt: Use $generate-exercise-images to make one professional 2D cartoon
+    colorful sheet for up to six exercises, then one matching cartoon pencil sheet;
+    never depict real human models or photorealistic people, use compatible tools
+    in this environment, and skip publishing unless requested.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

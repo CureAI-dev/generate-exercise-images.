@@ -1,0 +1,82 @@
+{
+  "config_version": 5,
+  "host": "discover_current_environment",
+  "mode": "preview_only",
+  "batch_size": 6,
+  "collection_id": null,
+  "database": {
+    "provider": null,
+    "connection_alias": null,
+    "account_id": null,
+    "environment": null,
+    "namespace": null,
+    "exercise_records": null,
+    "pair_records": null,
+    "run_records": null,
+    "batch_records": null,
+    "item_records": null,
+    "slot_records": null,
+    "atomic_commit_capability": null
+  },
+  "image_storage": {
+    "provider": null,
+    "connection_alias": null,
+    "account_id": null,
+    "environment": null,
+    "container": null,
+    "key_prefix": "collections",
+    "access_mode": "private",
+    "create_only": true,
+    "original_byte_readback_verified": false
+  },
+  "run_store": {
+    "provider": null,
+    "connection_alias": null,
+    "account_id": null,
+    "container": null,
+    "durable_location": null,
+    "access_mode": "private"
+  },
+  "generation": {
+    "provider": null,
+    "tool": null,
+    "model": null,
+    "width": 1536,
+    "height": 1024,
+    "outputs_per_request": 1,
+    "max_in_flight_requests": 1,
+    "pencil_requires_validated_colorful_reference": true,
+    "delivery_surface": "host_primary_conversation",
+    "automatic_regeneration": false,
+    "output_layout": "exercise_sheet",
+    "grid_columns": 3,
+    "grid_rows": 2,
+    "max_exercises_per_sheet": 6,
+    "images_per_batch": 2,
+    "illustrations_per_full_batch": 12,
+    "requests_per_style_per_batch_revision": 1,
+    "max_requests_per_batch_revision": 2,
+    "generation_order": [
+      "colorful",
+      "pencil"
+    ],
+    "allow_extra_anchor_generation": false,
+    "split_panels": false,
+    "panel_order": "left_to_right_then_top_to_bottom"
+  },
+  "visual": {
+    "profile_version": 2,
+    "style": "professional_cartoon_2d",
+    "subject": "fictional_illustrated_adult",
+    "photorealistic_people_allowed": false,
+    "real_human_models_allowed": false,
+    "colorful": "light_flat_colors_clean_contours_restrained_shading",
+    "pencil": "matching_cartoon_light_gray_contours_minimal_shading",
+    "background": "opaque_pure_white"
+  },
+  "review_every_pair": null,
+  "visual_profile_id": null,
+  "visual_profile_sha256": null,
+  "anchor_reference": null,
+  "authorization_record": null
+}
